@@ -2,13 +2,6 @@
   margin-top: 3em;
 }
 
-.wrapper {
-  display: block;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
 .header {
   font-weight: lighter;
   font-style: italic;
