@@ -56,6 +56,9 @@ h3 {
 }
 
 @media (max-width: 800px) {
+  .column {
+    margin-top: 1em;
+  }
   .row {
     -webkit-flex-direction: column;
     flex-direction: column;
