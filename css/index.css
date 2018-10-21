@@ -24,6 +24,7 @@
   color: #22a7f0;
 }
 
+.services,
 .pricing,
 .contact {
   text-align: center;
@@ -52,4 +53,13 @@ textarea:focus {
 h1,
 h3 {
   font-family: "Satisfy", cursive;
+}
+
+@media (max-width: 800px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-left: -1rem;
+    width: calc(100% + 2rem);
+  }
 }
